@@ -1,3 +1,3 @@
-FROM https://nabo.codimd.dev/hackmdio/hackmd:latest
+FROM nabo.codimd.dev/hackmdio/hackmd:latest
 ARG RENDER_EXTERNAL_HOSTNAME
 ENV CMD_DOMAIN=${RENDER_EXTERNAL_HOSTNAME}
